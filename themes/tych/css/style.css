@@ -5,6 +5,12 @@
     padding: 0;
 }
 
+body {
+
+    background-color: lightskyblue;
+}
+
+
 ol,
 ul {
     padding-left: 1.5em;
@@ -50,6 +56,42 @@ body {
 .logo {
     padding: 3em 3em 3em 0;
 }
+
+/* .logo>img {
+
+    /* width: 100%; */
+/* height: 20px;
+    width: 20px;
+} */
+
+.logoOwnStyle {
+
+    width: 100%;
+    height: 200px;
+}
+
+
+
+/* .logo>img {
+
+    /* width: 100%; */
+/* height: 20px;
+    width: 20px;
+} */
+
+.logoOwnStyle {
+
+    width: 100%;
+    height: 200px;
+}
+
+.PortfolioImage {
+
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+
 
 @media (max-width: 767px) {
 
