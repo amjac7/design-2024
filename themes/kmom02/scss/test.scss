@@ -1,0 +1,47 @@
+// .old-fashioned {
+
+//     background-color: aqua;
+
+// }
+
+// .modern {
+//     background-color: aqua;
+
+// }
+
+// p span {
+
+//     font-weight: bold;
+// }
+
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+// @mixin old-fashioned {
+
+//     background-color: deeppink;
+
+// }
+
+@mixin horizontal-list {
+  @include reset-list;
+
+  span {
+    background-color: rgb(248, 14, 248);
+    font-weight: bold;
+  }
+
+
+}
+
+.old-fashioned {
+  @include horizontal-list;
+}
+
+.modern {
+  @include horizontal-list;
+}

@@ -25,7 +25,7 @@ This is a sample home page written in markdown with some frontmatter defined. --
 <br>
 
 <!-- ![Större Bild På Mig](img/störreBildPåMIG_justerad.jpg) -->
-<img class="PortfolioImage" src="assets/img/störreBildPåMIG_justerad.jpg" alt="My picture" />
+<img class="PortfolioImage" src="image/biggerPicOnMeEdited.jpg?w=350" alt="My picture" />
 
  
 <br>

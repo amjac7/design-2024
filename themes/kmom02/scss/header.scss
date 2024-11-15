@@ -1,0 +1,90 @@
+.header {
+
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  // background-color: #faa;
+  background-color: #aaa;
+  text-decoration: none;
+
+
+}
+
+.site-header {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  // background-color: chartreuse;
+
+
+
+  h1 {
+    // background-color: palevioletred;
+    // font-family: "Quicksand", sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 450;
+    font-size: 2.2rem;
+    color: #1c3f83;
+
+
+
+  }
+
+  p {
+
+    // background-color: lightblue;
+    font-size: 1.2rem;
+
+  }
+}
+
+
+
+
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+// @mixin old-fashioned {
+
+//     background-color: deeppink;
+
+// }
+
+@mixin horizontal-list {
+  @include reset-list;
+
+  span {
+    background-color: rgb(243, 67, 155);
+    font-weight: bold;
+  }
+
+  h1 {
+    background-color: rgb(28, 189, 189);
+
+  }
+
+}
+
+.old-fashioned {
+  @include horizontal-list;
+}
+
+.modern {
+  @include horizontal-list;
+}
+
+
+
+.nav a {
+
+  // font-size: 3rem;
+  font-size: 3rem;
+}
