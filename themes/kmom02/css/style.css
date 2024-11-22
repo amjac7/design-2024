@@ -6427,6 +6427,11 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+p {
+  font-size: 1.4em;
+  margin-bottom: 1.96rem;
+}
+
 html,
 body {
   height: 100%;
@@ -6582,4 +6587,24 @@ pre code {
   background: transparent;
   overflow-x: auto;
   line-height: 1.4;
+}
+
+/* technology.scss */
+.landing-page {
+  display: grid;
+  gap: 1.96rem;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.box {
+  border: 1px solid #ccc;
+  padding: 1.96rem;
+}
+
+.box:hover {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
 }
