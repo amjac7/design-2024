@@ -6,7 +6,8 @@
   justify-content: space-between;
   align-items: center;
   // background-color: #faa;
-  background-color: #aaa;
+  // background-color: #aaa;
+  background-color: $header-background-color;
   text-decoration: none;
 
 
@@ -19,6 +20,7 @@
   justify-content: space-between;
   align-items: center;
   // background-color: chartreuse;
+  // background-color: chartreuse;
 
 
 
@@ -28,16 +30,22 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 450;
     font-size: 2.2rem;
-    color: #1c3f83;
+    // color: #1c3f83;
+    color: $h1-font-color;
+    // background-color: aqua;
 
 
 
   }
 
+
+
   p {
 
     // background-color: lightblue;
     font-size: 1.2rem;
+    // background-color: pink;
+    color: $header-p-font-color;
 
   }
 }
@@ -87,4 +95,6 @@
 
   // font-size: 3rem;
   font-size: 3rem;
+  // background-color: deeppink;
+  color: $nav-font-color;
 }

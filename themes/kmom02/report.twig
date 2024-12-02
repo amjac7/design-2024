@@ -1,0 +1,27 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="landing-page1">
+            {{ content }}
+
+            {% for result in meta.result %}
+                <a class="{{ result.class }}" href="{{ base_url }}/analysis/{{ result.class }}">
+                {# <a href="{{ base_url }}/technology/{{ tech.class }}"> #}
+                <div class="resultclick {{ result.class }}"> 
+                    <h1>{{ result.name }}</h1>
+                </div>
+                </a>
+            {% endfor %}
+
+        </div>
+    </div>
+
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
+
+

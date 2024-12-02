@@ -30,7 +30,6 @@ a text file with the corresponding name and you will be able to access it
 (e.g. `content/sub/page.md` is accessible from the URL `%base_url%?sub/page`).
 Below we've shown some examples of locations and their corresponding URLs:
 
-|--------------- | Rubriktypsnitt | Brödtext |
 
 
 

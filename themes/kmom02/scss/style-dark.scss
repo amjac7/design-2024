@@ -14,7 +14,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 
 @import '../../node_modules/normalize.css/normalize';
-@import 'variables';
+@import 'variables-dark';
 
 
 @import 'typography';
@@ -36,3 +36,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import 'analysis';
 @import 'colors';
+// .main {
+
+//     background-color: yellow;
+// }

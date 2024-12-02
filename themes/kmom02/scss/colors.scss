@@ -1,0 +1,54 @@
+.webbchoice {
+
+  font-weight: 600;
+
+}
+
+.links {
+
+  color: $link-font-color;
+}
+
+.tablerapport {
+
+  border-spacing: 4px;
+  border-collapse: separate;
+  // border: solid 1px $border-color;
+  padding: 0.4%;
+  width: 30%;
+
+
+
+}
+
+
+.info {
+
+  // border: solid rgb(169, 226, 46);
+  // border: solid $border-color;
+  border: solid 1px $border-color;
+  height: 50px;
+  width: 50px;
+}
+
+.netflixscreenshot {
+
+  width: 75%;
+}
+
+
+.svtplayscreenshot {
+
+  width: 75%;
+}
+
+.pinterestscreenshot {
+
+  width: 75%;
+
+}
+
+.imagescreenshot {
+  width: 100%;
+  padding-bottom: 2%;
+}

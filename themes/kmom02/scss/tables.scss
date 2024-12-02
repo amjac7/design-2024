@@ -1,0 +1,23 @@
+table {
+
+  font-size: 1.4em;
+  margin-bottom: 1.96rem;
+  border-collapse: collapse;
+  width: 100%;
+
+  td,
+  th {
+
+    padding: 4px 12px;
+  }
+
+  th {
+
+    text-align: left;
+  }
+
+  td {
+
+    border-top: 1px solid #ccc;
+  }
+}

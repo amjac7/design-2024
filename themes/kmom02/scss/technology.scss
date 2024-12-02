@@ -19,7 +19,8 @@
 
 .box {
 
-  border: 1px solid #ccc;
+  // border: 1px solid #ccc;
+  border: 1px solid $box-border-color;
   padding: 1.96rem;
 
   // grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -37,38 +38,45 @@
 .css {
 
   grid-column: span 1;
+  color: $css-box-font-color;
 }
 
 
 .html {
 
   grid-column: span 2;
+  color: $css-box-font-color;
 }
 
 .javascript {
 
   grid-column: span 2;
+  color: $css-box-font-color;
 }
 
 .php {
 
   grid-column: span 1;
+  color: $css-box-font-color;
 }
 
 .python {
 
   grid-column: span 3;
+  color: $css-box-font-color;
 }
 
 .git {
 
   grid-row: span 1;
+  color: $css-box-font-color;
 
 }
 
 .sqlite {
 
   grid-column: span 2;
+  color: $css-box-font-color;
 }
 
 .technology {

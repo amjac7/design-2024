@@ -1,7 +1,7 @@
-Titel på rapporten
+Typsnitt
 =======================
 
-Skriv en eller två rader om vad uppgiften handlar om.
+Typsnitt på de 5 mest besökta webbplatserna i Sverige.
 
 Urval
 -----------------------
@@ -33,6 +33,14 @@ Ica.se
 
 Resultat
 -----------------------
+
+
+
+|              | Rubriktypsnitt | Brödtext    |
+|--------------|----------------|-------------|
+| Expressen.se | siri           | Inter       |
+| ica.se       | ICA Rubrik     | ICA Text Ny |
+|
 
 Dokumentera dina resultat från din studie. Berätta vad du kom fram till, vilka resultat du hittade och observerade.
 
