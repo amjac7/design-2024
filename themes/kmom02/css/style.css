@@ -6425,6 +6425,7 @@ template {
 
 body {
   font-family: "Montserrat", sans-serif;
+  color: #333;
 }
 
 p {
@@ -6440,10 +6441,14 @@ body {
 body {
   display: flex;
   flex-direction: column;
+  background-color: rgb(223, 28, 28);
 }
 
 .main {
   flex: 1 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(223, 28, 142);
 }
 
 .header,
@@ -6455,7 +6460,12 @@ body {
   width: 100%;
   max-width: 64rem;
   padding: 2rem;
+  background-color: rgb(223, 28, 28);
   margin: 0 auto;
+}
+
+.hidden {
+  display: none !important;
 }
 
 .header {
@@ -6482,6 +6492,7 @@ body {
 }
 .site-header p {
   font-size: 1.2rem;
+  color: #fff;
 }
 
 .old-fashioned {
@@ -6512,6 +6523,7 @@ body {
 
 .nav a {
   font-size: 3rem;
+  color: #333;
 }
 
 .footer {
@@ -6589,13 +6601,32 @@ pre code {
   line-height: 1.4;
 }
 
+table {
+  font-size: 1.4em;
+  margin-bottom: 1.96rem;
+  border-collapse: collapse;
+  width: 100%;
+}
+table td,
+table th {
+  padding: 4px 12px;
+}
+table th {
+  text-align: left;
+}
+table td {
+  border-top: 1px solid #ccc;
+}
+
 /* technology.scss */
 .landing-page {
   display: grid;
   gap: 1.96rem;
+  margin-bottom: 1.96rem;
+  grid-column: span 1;
 }
 
-.landingpage h1 {
+.landing-page h1 {
   grid-column: span 3;
   justify-self: center;
 }
@@ -6606,5 +6637,151 @@ pre code {
 }
 
 .box:hover {
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.css {
+  grid-column: span 1;
+  color: rgb(85, 26, 139);
+}
+
+.html {
+  grid-column: span 2;
+  color: rgb(85, 26, 139);
+}
+
+.javascript {
+  grid-column: span 2;
+  color: rgb(85, 26, 139);
+}
+
+.php {
+  grid-column: span 1;
+  color: rgb(85, 26, 139);
+}
+
+.python {
+  grid-column: span 3;
+  color: rgb(85, 26, 139);
+}
+
+.git {
+  grid-row: span 1;
+  color: rgb(85, 26, 139);
+}
+
+.sqlite {
+  grid-column: span 2;
+  color: rgb(85, 26, 139);
+}
+
+.technology {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.technology .article {
+  width: 60%;
+}
+
+.technology .menu {
+  width: 30%;
+}
+
+@media (max-width: 783px) {
+  .css,
+  .html,
+  .javascript,
+  .php,
+  .python,
+  .git,
+  .sqlite,
+  .technology {
+    grid-column: span 3;
+  }
+  .technology {
+    flex-direction: column;
+  }
+  .technology .menu {
+    width: 100%;
+    order: 2;
+  }
+  .technology .article {
+    width: 100%;
+  }
+}
+.colors {
+  color: #1c3f83;
+}
+
+.menyval {
+  color: #1c3f83;
+}
+
+.resultclick {
+  color: #1c3f83;
+}
+
+.webbchoice {
+  font-weight: 600;
+}
+
+.links {
+  color: #1c3f83;
+}
+
+.tablerapport {
+  border-spacing: 4px;
+  border-collapse: separate;
+  padding: 0.4%;
+  width: 30%;
+}
+
+.info {
+  border: solid 1px #000;
+  height: 50px;
+  width: 50px;
+}
+
+.netflixscreenshot {
+  width: 75%;
+}
+
+.svtplayscreenshot {
+  width: 75%;
+}
+
+.pinterestscreenshot {
+  width: 75%;
+}
+
+.imagescreenshot {
+  width: 100%;
+  padding-bottom: 2%;
+}
+
+.gallerylayout {
+  display: grid;
+  gap: 1.96rem;
+  margin-bottom: 1.96rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  border: 1px solid rgb(226, 13, 84);
+}
+
+.photoclick {
+  border: 1px solid greenyellow;
+  padding: 1.96rem;
+}
+
+.photoclick:hover {
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+img,
+embed,
+object,
+video {
+  max-width: 100%;
 }

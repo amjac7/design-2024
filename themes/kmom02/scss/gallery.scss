@@ -1,0 +1,66 @@
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+  // object-fit: cover;
+  // width: 100%;
+}
+
+// h1 {
+
+//     background-color: greenyellow;
+// }
+
+.gallerylayout {
+
+  display: grid;
+  gap: 1.2rem;
+  // gap: 0.3rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+
+}
+
+.gallerylayout h1 {
+  justify-self: center;
+  background-color: rgb(189, 47, 255);
+}
+
+// .imagebox {
+
+//     border: 3px solid greenyellow;
+// }
+
+img:hover {
+
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.embed-video {
+
+  position: relative;
+  // padding-bottom: 56.25%;
+  padding-bottom: 66.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-video:hover {
+
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.embed-video iframe,
+.embed-video object,
+.embed-video embed {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
