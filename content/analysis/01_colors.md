@@ -108,15 +108,15 @@ Dessa sidor använder sig även av följande typsnitt på sidan:
 | Svtplay.se    | publik                     | publik                                |
 
 
-<h4>Netflix</h4>
+<p class = "choicetitle">Netflix</p>
 font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 
 
 
-<h4>Pinterest</h4>
+<p class = "choicetitle">Pinterest</p>
 --font-family-default-latin: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', Arial, sans-serif;
 
-<h4>Svtplay</h4>
+<p class = "choicetitle">Svtplay</p>
 font-family: publik, helvetica, arial, sans-serif;
 
 

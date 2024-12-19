@@ -2,13 +2,18 @@ $main-background-color: #424769;
 $main-font-color: #fff;
 
 //header
-$header-background-color: #2d3250;
+// $header-background-color: #2d3250;
+$header-background-color: #2d325081;
+
 
 $header-p-font-color: #fff;
 
 $nav-font-color: #fff;
+$nav-toggle-color: #fff;
 
 $h1-font-color: #fff;
+
+//footer
 $footer-background-color: #3a3a3a;
 
 // code
@@ -23,16 +28,36 @@ $blockquote-color: #232242;
 // technology
 $box-border-color: #232242;
 
-$css-box-font-color: rgb(22, 117, 240);
+// $css-box-font-color: rgb(22, 117, 240);
+// $css-box-font-color: #99c1f5;
+$css-box-font-color: #01edfa;
 
 // colors
 $border-color: #fff;
 
 
-$link-font-color: rgb(22, 117, 240);
+// $link-font-color: rgb(22, 117, 240);
+// $link-font-color: #99c1f5;
+$link-font-color: #01edfa;
 
 //analysis
-$report-menu-font-color: rgb(22, 117, 240);
-$report-font-color: rgb(22, 117, 240);
 
-$report-menu-font-color: rgb(22, 117, 240);
+// $report-menu-font-color: rgb(22, 117, 240);
+// $report-menu-font-color: #99c1f5;
+$report-menu-font-color: #01edfa;
+// $report-font-color: rgb(22, 117, 240);
+// $report-font-color: #99c1f5;
+$report-font-color: #01edfa;
+
+// $report-menu-font-color: rgb(22, 117, 240);
+// $report-menu-font-color: #99c1f5;
+$report-menu-font-color: #01edfa;
+
+//container
+
+$body-background-color: rgba(5, 22, 54, 0.87);
+$body-background-blend-mode: darken;
+
+//för a taggarna:
+
+$a-tags-font-color: #01edfa;

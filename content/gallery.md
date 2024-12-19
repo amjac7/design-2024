@@ -131,7 +131,7 @@ Nedan bilder för bildgalleriet, tagna av mig själv vid olika tidspunkter.
 </div> 
 
 <div class = "embed-video">
-    <iframe src="https://www.youtube.com/embed/7ZhdXgRfxHI?si=rY3E7CnLAhxF26dK" frameborder="0" allowfullscreen> <iframe>
+    <iframe src="https://www.youtube.com/embed/7ZhdXgRfxHI?si=rY3E7CnLAhxF26dK" frameborder="0" allowfullscreen  title="Youtube video"> </iframe>
 </div> 
 
 

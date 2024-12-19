@@ -1,6 +1,15 @@
 html,
 body {
   height: 100%;
+  background: $header-background-color url('./../../../assets/img/whiteSurface.jpg');
+  // background-color: rgba(212, 212, 212, 0.842);
+  //nedan är mest rätt/nice hitills
+  // background-color: rgba(240, 240, 240, 0.863);
+  background-color: $body-background-color;
+  // background-blend-mode: lighten;
+  background-blend-mode: $body-background-blend-mode;
+
+
 }
 
 
@@ -8,6 +17,9 @@ body {
 
   display: flex;
   flex-direction: column;
+  // background: $header-background-color url('./../../../assets/img/whiteSurface.jpg');
+  // background-color: $header-background-color;
+
 }
 
 
@@ -15,6 +27,9 @@ body {
   flex: 1 0 auto;
   width: 100%;
   box-sizing: border-box;
+  // background-image: url("mage/tree2.jpg");
+  background-color: $header-background-color;
+
 }
 
 .header,
@@ -31,8 +46,15 @@ body {
   margin: 0 auto;
   background-color: $main-background-color;
 
+
 }
 
 .hidden {
   display: none !important;
+}
+
+
+a {
+
+  color: $a-tags-font-color;
 }

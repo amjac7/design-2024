@@ -1,6 +1,6 @@
 ---
 Title: LOAD
-Description: This is my color page.
+Description: This is my load page.
 Template: analysis
 ---
 
@@ -54,7 +54,7 @@ Nämligen:
 Sedan gjorde jag detta 3 gånger per sida och antecknade värdena jag fick fram i excelbladet som ni även ser här nedan. 
 
 
-<iframe class="excel" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSAGT_-rrPjhN3SVC04m2Bykg5S3icUsD2TAfrpG8UvGLufm0KPiK2KXds5it7lxj2Fu-KjqHEH42bM/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe class="excel" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSAGT_-rrPjhN3SVC04m2Bykg5S3icUsD2TAfrpG8UvGLufm0KPiK2KXds5it7lxj2Fu-KjqHEH42bM/pubhtml?widget=true&amp;headers=false" title="excel sheet with values"></iframe>
 
 Resultat
 -----------------------

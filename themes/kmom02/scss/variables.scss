@@ -8,11 +8,15 @@ $main-background-color: #fff;
 $main-font-color: #333;
 
 //header
-$header-background-color: #aaa;
+// $header-background-color: #aaa;
+$header-background-color: #aaaaaa5e;
+// $header-background-color: #aaaaaab7;
+
+
 $header-p-font-color: #fff;
 
 $nav-font-color: #333;
-
+$nav-toggle-color: #333;
 
 $h1-font-color: #1c3f83;
 
@@ -43,3 +47,14 @@ $report-font-color: #1c3f83;
 
 
 $report-menu-font-color: #1c3f83;
+
+
+//container
+
+$body-background-color: rgba(240, 240, 240, 0.781);
+$body-background-blend-mode: lighten;
+
+
+//för a taggarna:
+
+$a-tags-font-color: #1c3f83;

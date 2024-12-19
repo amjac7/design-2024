@@ -10,7 +10,7 @@
             <h2>Meny</h2>
 
             {% for page in pages("analysis") %}
-                <p><a class="menyval" href="{{ page.url }}">{{ page.title }}</a></p>
+                <p><a aria-label="takes all the names from the menubar and displays them"  class="menyval" href="{{ page.url }}">{{ page.title }}</a></p>
             {% endfor %}
         </aside>
 

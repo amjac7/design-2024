@@ -6441,14 +6441,12 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  background-color: rgb(223, 28, 28);
 }
 
 .main {
   flex: 1 0 auto;
   width: 100%;
   box-sizing: border-box;
-  background-color: rgb(223, 28, 142);
 }
 
 .header,
@@ -6460,8 +6458,8 @@ body {
   width: 100%;
   max-width: 64rem;
   padding: 2rem;
-  background-color: rgb(223, 28, 28);
   margin: 0 auto;
+  background-color: #424769;
 }
 
 .hidden {
@@ -6521,8 +6519,11 @@ body {
   background-color: rgb(28, 189, 189);
 }
 
+.nav {
+  max-width: 100%;
+}
+
 .nav a {
-  font-size: 3rem;
   color: #fff;
 }
 
@@ -6762,21 +6763,17 @@ table td {
   padding-bottom: 2%;
 }
 
-.gallerylayout {
-  display: grid;
-  gap: 1.96rem;
-  margin-bottom: 1.96rem;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  border: 1px solid rgb(226, 13, 84);
+.webchoices {
+  font-weight: 600;
 }
 
-.photoclick {
-  border: 1px solid greenyellow;
-  padding: 1.96rem;
+.screenshotimage {
+  width: 70%;
 }
 
-.photoclick:hover {
-  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.2);
+.excel {
+  width: 100%;
+  height: 92vh;
 }
 
 img,
@@ -6784,4 +6781,41 @@ embed,
 object,
 video {
   max-width: 100%;
+}
+
+.gallerylayout {
+  display: grid;
+  gap: 1.2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.gallerylayout h1 {
+  justify-self: center;
+  background-color: rgb(189, 47, 255);
+}
+
+img:hover {
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.embed-video {
+  position: relative;
+  padding-bottom: 66.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-video:hover {
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.embed-video iframe,
+.embed-video object,
+.embed-video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }

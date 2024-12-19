@@ -3,7 +3,7 @@ Title: About
 Description: This is our about page
 ---
 
-Summery
+Summery 
 ==========================
 Jag har hittils använt mig av tekniker så som att jobba med SCSS och att ytterligare information i olika mappar
 men också att jobba med exempelvis @mixin i header.scss för att lägga samman/komprimera kod som används på flera

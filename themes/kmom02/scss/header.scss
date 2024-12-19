@@ -6,10 +6,19 @@
   justify-content: space-between;
   align-items: center;
   // background-color: #faa;
-  // background-color: #aaa;
+  // // background-color: #aaa;
   background-color: $header-background-color;
-  text-decoration: none;
 
+
+  // background-image: url('./../../../assets/img/whiteSurface.jpg');
+  // background-image: url('%base_url%/image/whiteSurface.jpg');
+
+
+  // background: $header-background-color url('./../../../assets/img/whiteSurface.jpg');
+
+
+  // background-repeat: no-repeat;
+  // text-decoration: none;
 
 }
 
@@ -21,7 +30,6 @@
   align-items: center;
   // background-color: chartreuse;
   // background-color: chartreuse;
-
 
 
   h1 {
@@ -89,12 +97,28 @@
   @include horizontal-list;
 }
 
+.nav {
 
+  max-width: 100%;
+
+}
+
+
+.nav ul {
+
+  padding: 1%;
+}
 
 .nav a {
 
   // font-size: 3rem;
-  font-size: 3rem;
+  font-size: 1.2rem;
   // background-color: deeppink;
   color: $nav-font-color;
+}
+
+
+.nav-toggle {
+
+  color: $nav-toggle-color;
 }
